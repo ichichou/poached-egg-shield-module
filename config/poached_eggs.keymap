@@ -36,8 +36,13 @@
 // Otherwise
 #define OS_LOCK LCG(Q)
 
+&mt {
+    tapping-term-ms = <150>;
+};
+
 &lt {
     flavor = "hold-preferred";
+    tapping-term-ms = <150>;
 };
 
 / {
@@ -47,8 +52,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
             bindings = <&kp>, <&kp>;
             display-name = "Mod-Tap";
         };
@@ -57,8 +62,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
         };
