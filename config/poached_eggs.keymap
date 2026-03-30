@@ -82,19 +82,19 @@
 
         base_layer {
             bindings = <
-&mt HYPR_TAB  &kp Q      &kp W     &kp E          &kp R        &kp T                         &kp Y         &kp U            &kp I          &kp O     &kp P      &kp BSPC
-&mt LCTL_ESC  &kp A      &kp S     &kp D          &kp F        &kp G                         &kp H         &kp J            &kp K          &kp L     &kp SEMI   &kp SQT
-&kp LSHIFT    &kp Z      &kp X     &kp C          &kp V        &kp B                         &kp N         &kp M            &kp COMMA      &kp DOT   &kp FSLH   &kp BSLH
-&mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC  &mo FN  &mo FN  &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT  &kp RCTRL  &lt FN_GRV
+&mt HYPR_TAB  &kp Q  &kp W      &kp E     &kp R          &kp T                                    &kp Y            &kp U          &kp I      &kp O      &kp P      &kp BSPC
+&mt LCTL_ESC  &kp A  &kp S      &kp D     &kp F          &kp G                                    &kp H            &kp J          &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHIFT    &kp Z  &kp X      &kp C     &kp V          &kp B                                    &kp N            &kp M          &kp COMMA  &kp DOT    &kp FSLH   &kp BSLH
+&mo FN        &none  &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC  &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT   &kp RCTRL  &none      &lt FN_GRV
             >;
         };
 
         mtgap_layer {
             bindings = <
-&mt HYPR_TAB  &kp Y      &kp P     &kp O          &kp U        &kp J                         &kp K         &kp D            &kp L          &kp C     &kp W      &kp BSPC
-&mt LCTL_ESC  &kp I      &kp N     &kp E          &kp A        &kp COMMA                     &kp M         &kp H            &kp T          &kp S     &kp R      &kp SQT
-&kp LSHIFT    &kp Q      &kp Z     &kp FSLH       &kp DOT      &kp SEMI                      &kp B         &kp F            &kp G          &kp V     &kp X      &kp BSLH
-&mo FN        &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC  &mo FN  &mo FN  &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT  &kp RCTRL  &lt FN_GRV
+&mt HYPR_TAB  &kp Y  &kp P      &kp O     &kp U          &kp J                                    &kp K            &kp D          &kp L     &kp C      &kp W  &kp BSPC
+&mt LCTL_ESC  &kp I  &kp N      &kp E     &kp A          &kp COMMA                                &kp M            &kp H          &kp T     &kp S      &kp R  &kp SQT
+&kp LSHIFT    &kp Q  &kp Z      &kp FSLH  &kp DOT        &kp SEMI                                 &kp B            &kp F          &kp G     &kp V      &kp X  &kp BSLH
+&mo FN        &none  &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC  &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT  &kp RCTRL  &none  &lt FN_GRV
             >;
         };
 
@@ -121,7 +121,7 @@
 &none  &none          &kp LCA(U)  &kp LCA(I)  &kp MEH(C)      &kp LC(N1)                &kp LC(N4)  &kp MEH(C)    &kp LA(UP)    &kp LSG(LBKT)  &none  &kp LCA(BSPC)
 &none  &kp LCA(LEFT)  &kp LCA(J)  &kp LCA(K)  &kp LCA(RIGHT)  &kp LC(N2)                &kp LC(N5)  &kp LCA(C)    &kp LA(DOWN)  &kp LSG(RBKT)  &none  &kp MEH(RET)
 &none  &kp LCA(Z)     &kp LCA(X)  &kp LCA(V)  &kp LCA(B)      &kp LC(N3)                &kp LC(N6)  &kp LCA(RET)  &kp MEH(RET)  &none          &none  &none
-&none  &none          &none       &none       &trans          &none       &none  &none  &none       &trans        &none         &none          &none  &none
+&none  &none          &none       &none       &none           &trans      &none  &none  &trans      &none         &none         &none          &none  &none
             >;
         };
 
