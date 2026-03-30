@@ -82,10 +82,10 @@
 
         base_layer {
             bindings = <
-&mt HYPR_TAB  &kp Q  &kp W      &kp E     &kp R          &kp T                                    &kp Y            &kp U          &kp I      &kp O      &kp P      &kp BSPC
-&mt LCTL_ESC  &kp A  &kp S      &kp D     &kp F          &kp G                                    &kp H            &kp J          &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHIFT    &kp Z  &kp X      &kp C     &kp V          &kp B                                    &kp N            &kp M          &kp COMMA  &kp DOT    &kp FSLH   &kp BSLH
-&mo FN        &none  &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC  &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT   &kp RCTRL  &none      &lt FN_GRV
+&mt HYPR_TAB  &kp Q  &kp W      &kp E     &kp R          &kp T                                    &kp Y            &kp U          &kp I      &kp O      &kp P     &kp BSPC
+&mt LCTL_ESC  &kp A  &kp S      &kp D     &kp F          &kp G                                    &kp H            &kp J          &kp K      &kp L      &kp SEMI  &kp SQT
+&kp LSHIFT    &kp Z  &kp X      &kp C     &kp V          &kp B                                    &kp N            &kp M          &kp COMMA  &kp DOT    &kp FSLH  &kp BSLH
+&mo FN        &none  &kp RCTRL  &kp LALT  &mt LGUI_LNG2  &lt NAV_ESC  &mt LSFT_SPC  &mt RCTL_RET  &lt_qt SYM_BSPC  &mt RGUI_LNG1  &kp RALT   &kp RCTRL  &none     &lt FN_GRV
             >;
         };
 
@@ -127,10 +127,10 @@
 
         fn_layer {
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &kp LSG(N2)  &none  &none  &none         &none         &kp OS_LOCK
-&studio_unlock  &kp F1        &kp F2        &none         &none         &none                                 &kp LSG(N3)  &none  &none  &kp C_PREV    &kp C_NEXT    &kp C_PP
-&none           &kp LG(LBKT)  &kp RG(RBKT)  &none         &to MTGAP     &to BASE                              &kp LSG(N4)  &none  &none  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE
-&trans          &none         &none         &none         &none         &none         &sys_reset  &sys_reset  &none        &none  &none  &none         &none         &trans
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &kp LSG(N2)  &none  &none  &none         &none         &kp OS_LOCK
+&studio_unlock  &kp F1        &kp F2        &none         &none         &none                                   &kp LSG(N3)  &none  &none  &kp C_PREV    &kp C_NEXT    &kp C_PP
+&none           &kp LG(LBKT)  &kp RG(RBKT)  &none         &to MTGAP     &to BASE                                &kp LSG(N4)  &none  &none  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE
+&trans          &none         &none         &none         &none         &none         &bootloader  &bootloader  &none        &none  &none  &none         &none         &trans
             >;
         };
 
